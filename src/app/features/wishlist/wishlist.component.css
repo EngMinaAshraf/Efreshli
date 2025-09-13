@@ -1,0 +1,314 @@
+.wishlist-container {
+  padding: 20px 100px;
+  /* margin-bottom: 50px; */
+  border-bottom: 1px solid #ddd;
+}
+
+h1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin-bottom: 40px;
+}
+
+.empty-state {
+  text-align: center;
+}
+
+.icons {
+  margin-bottom: 20px;
+}
+
+.icons img {
+  margin: 0 10px;
+  width: 350px;
+  height: 200px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.create-btn{
+  background: #C40101;
+  color: #fff;
+  border: none;
+  padding: 10px 60px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.start-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.start-sec h1{
+    margin: 0;
+}
+
+.start-sec .list-btn{
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #C40101;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #C40101;
+}
+
+.start-sec .list-btn:hover{
+    background-color: #e6000028;
+    border: 1.5px solid #c00;
+}
+
+
+.created-btn{
+     color: #fff;
+    background-color: #C40101;
+    border: 1px solid #C40101;
+    padding: 10px 50px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.lists-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.list-card {
+  width: 400px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+
+}
+
+.list-header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background: #fff;
+  top: 0;
+  left: 0;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.list-header svg {
+  margin-right: 10px;
+}
+
+.share {
+  margin-left: auto;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.list-empty {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.list-empty p {
+  color: #aaaaaa68;
+  font-size: 18px;
+}
+
+.list-empty .icons img{
+    height: 150px;
+    width: 200px;
+}
+
+.wishlist-detail {
+  padding: 0 80px 80px 80px;
+  border-bottom: 1px solid #ddd;
+  /* margin-bottom: 20px; */
+}
+
+.back-link {
+    font-size: 15px;
+    font-weight: 600;
+    color: #E60000;
+    cursor: pointer;
+  /* margin-bottom: 30px; */
+
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.head h1{
+    margin: 0;
+    font-size: 20px;
+}
+
+.head .shared{
+    color: #aaa;
+}
+
+.desc{
+    margin-top: 10px;
+    color: #707070;
+    font-size: 14px;
+}
+
+.desc img{
+    width: 12px;
+    height: 12px;
+}
+
+.list-content{
+    text-align: center;
+}
+
+.list-content img{
+    width: 200px;
+    height: 200px;
+}
+
+.list-content .build-btn{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 3px;
+    margin-top: 25  px;
+}
+
+.items-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.item-card {
+  width: 280px;
+  /* height: 400px; */
+  position: relative;
+  margin-right: 25px;
+}
+
+.item-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.heart {
+  position: absolute;
+  top: 10px;
+  right: 1px;
+  background-color: rgb(237, 28, 35, 0.2);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  color: #c00;
+}
+
+.item-card select {
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid #aaa;
+  padding: 2px;
+}
+
+.item-card button {
+    font-size: 12px;
+    font-weight: bold;
+  width: 100%;
+  background: #FFF;
+  color: #000;
+  border: 1px solid #000;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.item-card .color{
+    padding: 20px 0;
+}
+
+.item-card .item-name{
+    color: #999999;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.item-card .item-desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-card .item-desc p{
+    max-width: 200px;        
+  white-space: nowrap;   
+  overflow: hidden;     
+  text-overflow: ellipsis;
+  color: #000;
+  font-weight: 600;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.create-popup {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 500px;
+  height: 220px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.create-popup input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}

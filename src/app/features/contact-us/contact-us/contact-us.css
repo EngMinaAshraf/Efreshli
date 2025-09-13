@@ -1,0 +1,189 @@
+/* Hero Section */
+.contact-hero {
+  background-image: url('https://efreshli.com/images/Contact-us.webp'); /* Replace with actual image URL from site or placeholder */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  color: white;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+/* Main Container */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.left-column, .right-column {
+  width: 48%;
+}
+
+.left-column h2, .right-column h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.left-column p, .right-column p {
+  font-size: 16px;
+  color: #666;
+}
+
+.left-column h3 {
+  font-size: 20px;
+  color: #333;
+  margin-top: 30px;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.address i {
+  font-size: 18px;
+  color: #999;
+  margin-right: 10px;
+}
+
+.address p {
+  margin: 0;
+  color: #666;
+}
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.contact-info i {
+  font-size: 18px;
+  color: #999;
+  margin-right: 10px;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  font-size: 20px;
+  color: #333;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ff0000; /* Red hover, matching theme */
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+}
+
+.phone-input .flag {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.phone-input input {
+  flex: 1;
+}
+
+.submit-btn {
+  background-color: #000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #333;
+}
+
+/* Vendor Section */
+.vendor-section {
+  background-color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.vendor-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.vendor-icon {
+  font-size: 40px;
+  color: #ff0000; /* Red icon */
+  margin-bottom: 10px;
+}
+
+.vendor-content h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.vendor-content p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.vendor-submit {
+  background-color: #ff0000;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.vendor-submit:hover {
+  background-color: #cc0000;
+}
+
+/* Font Awesome (assume imported in app) */
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'); */

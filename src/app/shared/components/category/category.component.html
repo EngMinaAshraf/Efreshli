@@ -1,0 +1,10 @@
+<div class="category-page">
+  <h4>{{ categoryName }}</h4>
+  <p class="route-path">{{ currentRoute }}</p>
+  <div class="category-grid">
+    <div class="category-card" *ngFor="let item of categoryItems">
+      <img [src]="item.image" alt="{{ item.name }}" />
+      <p>{{ item.name }}</p>
+    </div>
+  </div>
+</div>
